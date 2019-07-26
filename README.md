@@ -1,2 +1,4 @@
 # Cappadocia-Puzzle-Game
-Final Project of JS Course
+Final Project of JavaScript Course
+
+
