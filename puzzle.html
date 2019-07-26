@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<title>Cappadocia Puzzle Game</title>
+		<link rel="stylesheet" href="puzzle.css">
+		<script type="text/javascript" src="puzzle.js"></script>
+	</head>
+	<body>
+		<div class="header">
+	  		<h1>Emre Yasa</h1>
+	  		<p>“In IT, there is nothing like ‘all of a sudden’.” 
+						― Sachin Kodagali</p>
+		</div>
+		<div class="topnav">
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/index.html">Home</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/javascript.html">Javascript</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/java.html">Java</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/mysql.html">MySQL</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/SiteMap/SiteMapIndex/SiteMap.html">Site Map</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/who.html">Who I am?</a>
+			  <a href="https://hills.ccsf.edu/~eyasa/CNIT133/contact.html">Contact</a>
+		</div>
+		<h2>Cappadocia Puzzle Game</h2>
+		<div align="center" style="border:1px solid black">
+			<p>
+				<img id="0" src="images/0.jpg" onclick="move(this.id);">
+				<img id="1" src="images/1.jpg" onclick="move(this.id);">
+				<img id="2" src="images/2.jpg" onclick="move(this.id);">
+				<img id="3" src="images/3.jpg" onclick="move(this.id);">
+			</br>
+				<img id="4" src="images/4.jpg" onclick="move(this.id);">
+				<img id="5" src="images/5.jpg" onclick="move(this.id);">
+				<img id="6" src="images/6.jpg" onclick="move(this.id);">
+				<img id="7" src="images/7.jpg" onclick="move(this.id);">
+			</br>
+				<img id="8" src="images/8.jpg" onclick="move(this.id);">
+				<img id="9" src="images/9.jpg" onclick="move(this.id);">
+				<img id="10" src="images/10.jpg" onclick="move(this.id);">
+				<img id="11" src="images/11.jpg" onclick="move(this.id);">
+			</br>
+				<img id="12" src="images/12.jpg" onclick="move(this.id);">
+				<img id="13" src="images/13.jpg" onclick="move(this.id);">
+				<img id="14" src="images/14.jpg" onclick="move(this.id);">
+				<img id="15" src="images/blank.jpg" onclick="move(this.id);">
+			</p>
+			<strong>Number of Clicks: <span id='clicks'>0</span></strong>
+			</br>
+			<strong><span id='message' ></span></strong>
+		</div>
+		<p>
+			<input type="button" value="Start/Reset" onclick="shuffle()" style="font-face: 'Comic Sans MS'; font-size: larger; color: blue; background-color: white; border: 3pt ridge lightgrey">		
+		</p>
+	</body>
+</html>
